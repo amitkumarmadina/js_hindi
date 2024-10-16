@@ -1,5 +1,5 @@
 // for
-
+/*
 for (let i = 0; i <= 10; i++) {
     const element = i;
     if (element == 5) {
@@ -47,3 +47,25 @@ for (let index = 1; index <= 20; index++) {
    console.log(`Value of i is ${index}`);
     
 }
+*/
+//while
+
+let idx=0;
+while(idx<=5){
+    console.log(`value of idx is ${idx}`);
+    idx++;
+}
+
+let myArr=['flash','padman','supman',]
+
+let i=0;
+while(i<myArr.length){
+    console.log(`the value is ${myArr[i]}`);
+    i++;
+}
+
+let s= 1;
+do{
+    console.log(`score is ${s}`);
+    s++;
+}while(s<=5)
